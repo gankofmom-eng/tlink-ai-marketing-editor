@@ -1,0 +1,14 @@
+interface:
+  display_name: 티링크 AI 영업사례 에디터
+  short_description: 현장사진과 제품 자료로 블로그, 인스타그램 카드뉴스, 기업 소개 이메일을 만듭니다
+  default_prompt: $write-tlink-sales-case 첨부한 사진과 제품 자료로 잠재 기업 고객용 홍보 콘텐츠를 요청한 매체에
+    맞춰 만들어 줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
